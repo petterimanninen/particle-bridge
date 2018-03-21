@@ -1,0 +1,25 @@
+{
+  "name": "jsclient",
+  "description": "IoT JavaScript Client",
+  "private": true,
+  "author": {
+    "name": "Felipe Heidrich",
+    "email": "felipe.heidrich@oracle.com"
+  },
+  "version": "0.0.2",
+  "dependencies": {
+    "chalk": "^1.1.0",
+    "commander": "^2.9.0",
+    "inquirer": "^0.9.0",
+    "keypair": "^1.0.0",
+    "node-uuid": "^1.4.3",
+    "request": "^2.55.0"
+  },
+  "gitHead": "36a54a3f0ddbace9e3927cbe58c3b43cb12baeff",
+  "readme": "# IoT Javascript Client \n\nThis simple problem will register a gateway, activate it, send a few messages, and delete the gateway\n\n## How to run\n\nMake sure node is installed on your system!  \n\n1) Clone the repo\n\n```\nbash$ git clone http://git.us.oracle.com/iot/jsclient.git\n```\n2) Install the depencies (the first 2 lines only required when running within Oracle Intranet)\n\n```\nbash$ npm config set proxy http://www-proxy.us.oracle.com:80  \nbash$ npm config set https-proxy http://www-proxy.us.oracle.com:80   \nbash$ npm install\n```\n3) Run the app\n\n```\nbash$ node tests/testMin.js\n```\n\n",
+  "readmeFilename": "README.md",
+  "_id": "jsclient@0.0.2",
+  "_shasum": "013997f7d51fd53fa819839d7ac930a357073ebc",
+  "_from": "git+http://git.us.oracle.com/iot/jsclient.git",
+  "_resolved": "git+http://git.us.oracle.com/iot/jsclient.git#36a54a3f0ddbace9e3927cbe58c3b43cb12baeff"
+}

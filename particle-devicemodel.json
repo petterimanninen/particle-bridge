@@ -1,0 +1,35 @@
+{
+  "urn": "urn:particle:wifi",
+  "name": "Particle",
+  "description": "Particle with temperature, humidity and lumiosity sensor",
+  "formats": [
+    {
+      "urn": "urn:particle:wifi:format",
+      "name": "particledata",
+      "description": "Particle with temperature, humidity and lumiosity sensor",
+      "type": "DATA",
+      "deviceModel": "urn:particle:wifi",
+      "value": {
+        "fields": [
+          {
+            "name": "temperature",
+            "optional": true,
+            "type": "NUMBER"
+          },
+          {
+            "name": "humidity",
+            "optional": true,
+            "type": "NUMBER"
+          },
+          {
+            "name": "lumiosity",
+            "optional": true,
+            "type": "NUMBER"
+          }
+        ]
+      },
+      "sourceId": "urn:particle:wifi",
+      "sourceType": "DEVICE_MODEL"
+    }
+  ]
+}

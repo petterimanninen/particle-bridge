@@ -1,0 +1,1 @@
+curl --insecure -X POST -H "Accept:application/json" -H "Content-Type: application/json" -u iotcsUsername:iotcsPassword --data @particle-devicemodel.json "https://iotcsipaddress:443/iot/api/v2/deviceModels/"
