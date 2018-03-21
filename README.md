@@ -11,10 +11,11 @@ Works with any Node.js container.
 + use iotcs UI, import particle-devicemodel.json
 
 ## Steps for Oracle Cloud ##
-1. Edit particle-bridge.js: modify lines 10-12 with valid url & credentials
-2. create a zip-file containing jsclient, node_modules, device-library.node.js, manifest.json, package.json and particle-bridge.js
-3. Create a new application container of type Node.js, 1 cpu, 1 GB mem.
-4. Upload the zip when asked
+1. Download this repository
+2. Edit particle-bridge.js: modify lines 10-12 with valid url & credentials
+3. create a zip-file containing jsclient, node_modules, device-library.node.js, manifest.json, package.json and particle-bridge.js
+4. Create a new application container of type Node.js, 1 cpu, 1 GB mem.
+5. Upload the zip when asked
 
 ## Screenshots ##
 1. ![](images/ACCS1.png)
