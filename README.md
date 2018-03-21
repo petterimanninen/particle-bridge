@@ -22,5 +22,4 @@ Works with any Node.js container.
 3. ![](images/ACCS3.png)
 4. ![](images/ACCS4.png)
 5. ![](images/ACCS5.png)
-
-All done!
+6. All done!
