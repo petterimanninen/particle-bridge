@@ -27,5 +27,5 @@ Works with any Node.js container.
 4. ![](images/ACCS4.png)
 5. ![](images/ACCS5.png)
 6. ![](images/ACCS6.png)
-7. ![](images/ParticleBridge.png)
+7. ![](images/ParticleWebhook.png)
 8. All done!
